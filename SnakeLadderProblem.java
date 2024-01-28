@@ -8,7 +8,7 @@ public class SnakeLadderProblem {
         System.out.println("Welcome to SnakeLadderProblem");
         Random random = new Random();
 
-        while (startPosition  < 100) {
+
             int diceValue = random.nextInt(6) + 1;
             int option = random.nextInt(3);
 
@@ -38,4 +38,4 @@ public class SnakeLadderProblem {
 
 
     }
-}
+
